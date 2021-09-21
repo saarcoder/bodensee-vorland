@@ -108,6 +108,7 @@ seo:
     - name: 'og:type'
       value: website
       keyName: property
+    -name: 
     - name: 'og:title'
       value: Stackbit Azimuth Theme
       keyName: property
