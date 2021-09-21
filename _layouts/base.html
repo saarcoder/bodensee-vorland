@@ -1,30 +1,30 @@
 <!doctype html>
 <html lang="en">
     <head>    
-<title>
-  {% if page.seo.title and page.seo.title != '' %}
-    {{ page.seo.title }}
-  {% else %}
-    {{ page.title | append: ' | ' | append: site.title }}
-  {% endif %}
-</title>
-<meta name="description" content="{{ page.seo.description | default: '' }}" />
-{% if page.seo.robots and page.seo.robots.size > 0 %}
-  <meta name="robots" content="{{ page.seo.robots | join: ',' }}">
-{% endif %}
-{% for meta in page.seo.extra %}
-  {% assign key_name = meta.keyName | default: 'name' %}
-  {% if meta.relativeUrl %}
-    {% if site.domain and site.domain != '' %}
-      {% assign domain = site.domain %}
-      {% assign rel_url = meta.value | relative_url %}
-      {% assign full_url = domain | append: rel_url %}
-      <meta {{ key_name }}="{{ meta.name }}" content="{{ full_url }}">
-    {% endif %}
-  {% else %}
-    <meta {{ key_name }}="{{ meta.name }}" content="{{ meta.value }}">
-  {% endif %}
-{% endfor %}
+        <title>
+        {% if page.seo.title and page.seo.title != '' %}
+            {{ page.seo.title }}
+        {% else %}
+            {{ page.title | append: ' | ' | append: site.title }}
+        {% endif %}
+        </title>
+        <meta name="description" content="{{ page.seo.description | default: '' }}" />
+        {% if page.seo.robots and page.seo.robots.size > 0 %}
+        <meta name="robots" content="{{ page.seo.robots | join: ',' }}">
+        {% endif %}
+        {% for meta in page.seo.extra %}
+        {% assign key_name = meta.keyName | default: 'name' %}
+        {% if meta.relativeUrl %}
+            {% if site.domain and site.domain != '' %}
+            {% assign domain = site.domain %}
+            {% assign rel_url = meta.value | relative_url %}
+            {% assign full_url = domain | append: rel_url %}
+            <meta {{ key_name }}="{{ meta.name }}" content="{{ full_url }}">
+            {% endif %}
+        {% else %}
+            <meta {{ key_name }}="{{ meta.name }}" content="{{ meta.value }}">
+        {% endif %}
+        {% endfor %}
         
         {% assign font = site.data.config.base_font | default: 'nunito-sans' %}
         {% if font != 'system-sans' %}
