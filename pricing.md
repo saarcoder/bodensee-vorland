@@ -4,7 +4,7 @@ sections:
   - section_id: pricing
     type: section_pricing
     background: gray
-    title: Pricing Plans
+    title: Preisübersicht
     subtitle: Dies ist nur eine Demo-Seite.
     pricing_plans:
       - title: Basic
