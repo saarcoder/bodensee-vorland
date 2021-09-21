@@ -803,8 +803,14 @@ models:
         items:
           type: enum
           options:
+            - all
+            - index
+            - follow
             - noindex
             - nofollow
+            - noimageindex
+            - notranslate
+            - none
       - type: list
         name: extra
         label: Extra
