@@ -11,6 +11,7 @@ sections:
       - label: Mehr entdecken
         url: /features
         style: primary
+    image: images/sunflower.png
   - section_id: features
     type: section_features
     background: gray
