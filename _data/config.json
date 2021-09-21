@@ -22,7 +22,7 @@
                 "style": "link"
             },
             {
-                "label": "Sign Up",
+                "label": "Einloggen",
                 "url": "/signup",
                 "style": "primary"
             }
