@@ -102,7 +102,7 @@ sections:
     background: gray
     title: Neueste Mitglieder
 seo:
-  title: Stackbit Azimuth Theme
+  title: Bodensee-
   description: The preview of the Azimuth theme
   extra:
     - name: 'og:type'
