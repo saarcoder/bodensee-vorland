@@ -11,7 +11,7 @@ sections:
       - label: Mehr entdecken
         url: /features
         style: primary
-    image: images/sunflower_bluete.png
+    image: images/pano_bright_schwamm.png
   - section_id: features
     type: section_features
     background: gray
