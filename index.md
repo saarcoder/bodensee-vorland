@@ -9,7 +9,7 @@ sections:
     content: |
       Dies ist nur eine Testseite
     actions:
-      - label: Learn More
+      - label: Mehr
         url: /features
         style: primary
   - section_id: features
