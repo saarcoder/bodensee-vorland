@@ -118,7 +118,7 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Terms of Service",
+                "label": "Impressum",
                 "url": "/terms-of-service",
                 "style": "link"
             },
