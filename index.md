@@ -102,7 +102,7 @@ sections:
     background: gray
     title: Neueste Mitglieder
 seo:
-  title: Stackbit Azimuth Theme
+  title: Bodensee-Vorland
   description: Dies ist nur eine Testseite
   extra:
     - name: 'og:type'
