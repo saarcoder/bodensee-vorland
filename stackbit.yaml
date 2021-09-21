@@ -803,9 +803,6 @@ models:
         items:
           type: enum
           options:
-            - all
-            - index
-            - follow
             - noindex
             - nofollow
             - noimageindex
