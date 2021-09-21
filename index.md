@@ -5,7 +5,7 @@ sections:
     type: section_hero
     image: images/hero.png
     image_alt: App preview
-    title: Urlaub am Bodensee
+    title: Urlaub mit der Familie
     content: |
       Dies ist nur eine Testseite
     actions:
