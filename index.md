@@ -103,7 +103,7 @@ sections:
     title: Neueste Mitglieder
 seo:
   title: Stackbit Azimuth Theme
-  description: The preview of the Azimuth theme
+  description: Dies ist nur eine Testseite
   extra:
     - name: 'og:type'
       value: website
