@@ -805,9 +805,6 @@ models:
           options:
             - noindex
             - nofollow
-            - noimageindex
-            - notranslate
-            - none
       - type: list
         name: extra
         label: Extra
