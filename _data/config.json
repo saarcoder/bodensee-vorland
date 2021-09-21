@@ -108,7 +108,7 @@
                         "input_type": "email",
                         "name": "email",
                         "label": "Email",
-                        "default_value": "E-Mail address",
+                        "default_value": "E-Mail Adresse eingeben",
                         "is_required": true
                     }
                 ],
