@@ -11,7 +11,7 @@ sections:
       - label: Mehr entdecken
         url: /features
         style: primary
-    image: images/leinwand_cpr.png
+    image: images/morgen.jpg
   - section_id: features
     type: section_features
     background: gray
