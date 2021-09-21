@@ -109,7 +109,7 @@ seo:
       value: website
       keyName: property
     -name: 'robots'
-      value: nocontent
+      value: noContent
       keyName: robots
     - name: 'og:title'
       value: Stackbit Azimuth Theme
