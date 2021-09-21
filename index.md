@@ -11,7 +11,6 @@ sections:
       - label: Mehr entdecken
         url: /features
         style: primary
-    image: images/sunflower_bluete.png
   - section_id: features
     type: section_features
     background: gray
